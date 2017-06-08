@@ -32,3 +32,9 @@ Route::get('testmodelpengaturan', function(){
 	$c = App\Pengaturan::all();
 	return $c;
 });
+route::get('/test','MyController@percobaan');
+route::get('/test2','MyController@percobaan2');
+route::get('/test3','MyController@percobaan3');
+route::get('/test4','MyController@percobaan4');
+route::get('/test5','MyController@percobaan5');
+route::get('/test6/{id}','MyController@percobaan6');
